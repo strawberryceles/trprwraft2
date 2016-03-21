@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Waft | Contacto</title>
+	<link rel="shortcut icon" href="assets/img/logo-favicon.ico" type="image/x-icon" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#nav_menu">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="navbar-header">
+					<ul>
+						<li class="col-xs-4 hidden-sm hidden-md hidden-lg"><img src="assets/img/logo-w4.png" alt="logo Wraft"></a></li>
+						</div>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="nav_menu">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html #inicio" class="active">Inicio</a></li>
+						<li><a href="#nosotros">Nosotros</a></li>
+						<li class="hidden-xs"><img src="assets/img/logo-w2.png" alt="logo Wraft"></a></li>
+						<li><a href="#destinos">Destinos</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- contacto -->
+	<section id="contacto">
+		<div class="container-fluid">
+			<div class="row page-header frase">
+				<div class="col-md-12 text-center">
+					<div class="img_contact">
+						<h2>Comunicarse es muy simple</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- formulario de contacto -->
+	<section class= "formulario">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<form action="contact_form/contact_process.php" id="contact-form" class="form-horizontal" role="form" method="post">
+					<div class="form-group" id="name-field">
+						<label for="form-name" class="col-lg-2 control-label">Nombre:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="form-name" name="form-name" placeholder="Nombre" required>
+						</div>
+					</div>
+					<div class="form-group" id="email-field">
+						<label for="form-email" class="col-lg-2 control-label">E-mail:</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="form-email" name="form-email" placeholder="correo@ejemplo.com" required>
+						</div>
+					</div>
+					<div class="form-group" id="subject-field">
+						<label for="form-subject" class="col-lg-2 control-label">Asunto:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Asunto" required>
+						</div>
+					</div>
+					<div class="form-group" id="message-field">
+						<label for="form-message" class="col-lg-2 control-label">Mensaje:</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="10" cols="30" id="form-message" name="form-message" placeholder="Mensaje" required></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-lg-offset-2 col-lg-10">
+							<button type="submit" class="btn btn-md" id="btn_send">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- bajada -->
+	<footer>		
+		<div class="row">
+			<div class="col-md-3">
+				<h3>¿Quienes somos?</h3>
+				<div class="logo_w"></div>
+				<p>Waft es la forma más fácil, segura y entretenida de viajar.</p>
+				<p id="icons_contact"><a href="#"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;Más sobre nosotros</a></p>
+				<p>&copy; 2016. Todos los derechos reservados.</p>
+			</div>
+			<div class="col-md-offset-1 col-md-2">
+				<h3>Contáctanos</h3>
+				<ul class="list-unstyled" id="icons_contact">
+					<li><i class="glyphicon glyphicon-map-marker" id="icons_contact">&nbsp;SCL</i></li>
+					<li><i class="glyphicon glyphicon-earphone" id="icons_contact">&nbsp;2555 55 55</i></li>
+					<li><i class="glyphicon glyphicon-envelope" id="icons_contact"><a href="mailto:hola@waft.com">&nbsp;hola@waft.com</a></i></li>
+				</ul>
+			</div>
+			<div class="col-md-3 text-center">
+				<h3>Seamos amigos</h3>
+				<a href="#"><i class="fa fa-facebook-square social_media"></i></a>
+				<a href="#"><i class="fa fa-twitter social_media"></i></a>
+				<a href="#"><i class="fa fa-instagram social_media"></i></a>
+				<a href="#"><i class="fa fa-tripadvisor social_media"></i></a>
+			</div>
+			<div class="col-md-3 travelers_choice"></div>
+		</div>
+	</footer>
+	<!-- JQuery -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.waypoints.js"></script>
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+</html>
